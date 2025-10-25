@@ -1,0 +1,53 @@
+# Core AI/ML Dependencies
+google-generativeai>=0.8.5
+langchain-google-genai>=2.0.10
+
+# MCP (Model Context Protocol)
+mcp[cli]==1.10.1
+
+# Financial Data APIs
+finnhub-python>=2.4.24
+yfinance>=0.2.65
+
+# Web Framework & UI
+gradio==5.36.2
+gradio-client==1.10.4
+fastapi==0.116.1
+starlette==0.47.1
+uvicorn==0.35.0
+
+# Data Processing
+pandas==2.3.1
+numpy==2.3.1
+matplotlib>=3.10.3
+python-dateutil==2.9.0.post0
+
+# Utilities
+python-dotenv==1.1.1
+aiofiles==24.1.0
+asyncio
+
+# HTTP & Networking
+httpx==0.28.1
+httpcore==1.0.9
+requests==2.32.4
+
+# Validation & Serialization
+pydantic==2.11.7
+pydantic-core==2.33.2
+pydantic-settings==2.10.1
+
+# JSON & Data Handling
+orjson==3.10.18
+jsonschema==4.24.0
+
+# Additional Support Libraries
+click==8.2.1
+jinja2==3.1.6
+pillow==11.3.0
+certifi==2025.7.9
+charset-normalizer==3.4.2
+idna==3.10
+urllib3==2.5.0
+packaging==25.0
+typing-extensions==4.14.1
